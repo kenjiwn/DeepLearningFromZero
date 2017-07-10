@@ -97,7 +97,7 @@ int main()
   
   // output pgm
   fprintf( fpw, "P2\n" );
-  fprintf( fpw, "%d %d\n", IM_H * N[1], IM_W * N[2] );
+  fprintf( fpw, "%d %d\n", IM_W * N[2], IM_H * N[1] );
   fprintf( fpw, "255\n" );
   for( int imY = 0; imY < IM_H; imY++ ){
     for( int y = 0; y < N[1]; y++ ){
